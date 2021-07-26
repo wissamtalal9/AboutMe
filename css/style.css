@@ -1,0 +1,16 @@
+main {
+    background-color: blanchedalmond;
+    margin-top: 10px;
+}
+
+h1 {
+    background-color: blanchedalmond;
+    color: crimson;
+    border-style: dashed;
+}
+
+#hobby{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(0, 158, 13);
+    background-color: khaki;
+}
