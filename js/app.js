@@ -14,9 +14,14 @@ if (qone == 'yes' || qone == 'y'){
     alert('correct, i love how big and strong they are!');
     scrCtr++
     // console.log(1st question guessed correctly)
-} else if(qone == 'no' || qone == 'n'){
- alert('i actually love bears, good luck with the rest of the questions')
-}
+} else if (qone == 'no' || qone == 'n'){
+ alert('i actually love bears, good luck with the rest of the questions')}
+ else {
+alert('please only answer with yes or no');
+qone=prompt('guess the following: "my favourite animals are Bears"   (yes/y no/n)'). toLowerCase();
+
+ }
+
 
 // question 2
 let qtwo=prompt('guess the following: "i cheer manchester united as my soccer team"   (yes/y no/n)'). toLowerCase();
@@ -26,7 +31,9 @@ if (qtwo == 'no' || qtwo == 'n'){
     // console.log(2nd question guessed correctly)
 } else if(qtwo == 'yes' || qtwo == 'y'){
     alert('i hate man Utd!  good luck with the rest of the questions')
-}
+} else {
+    alert('please only answer with yes or no');
+    qtwo=prompt('guess the following: "i cheer manchester united as my soccer team"   (yes/y no/n)'). toLowerCase();}
 
 // question 3
 let qthree=prompt('guess the following: "i live in japan"   (yes/y no/n)'). toLowerCase();
@@ -36,7 +43,9 @@ if (qthree == 'no' || qthree == 'n'){
     // console.log(3rd question guessed correctly)
 } else if(qthree == 'yes' || qthree == 'y'){
     alert('soon.')
-}
+} else {
+    alert('please only answer with yes or no');
+    qthree=prompt('guess the following: "i live in japan"   (yes/y no/n)'). toLowerCase();}
 
 // question 4
 let qfour=prompt('guess the following: "i drive a BMW"   (yes/y no/n)'). toLowerCase();
@@ -46,7 +55,9 @@ if (qfour == 'no' || qfour == 'n'){
     // console.log(4th question guessed correctly)
 } else if(qfour == 'yes' || qfour == 'y'){
     alert('one day!')
-}
+} else {
+    alert('please only answer with yes or no');
+    qfour=prompt('guess the following: "i drive a BMW"   (yes/y no/n)'). toLowerCase();}
 
 
 // question 5
@@ -57,7 +68,9 @@ if (qfive == 'yes' || qfive == 'y'){
     // console.log(5th question guessed correctly)
 } else if(qfive == 'no' || qfive == 'n'){
     alert('im pretty sure it is!')
-}
+} else {
+    alert('please only answer with yes or no');
+    qfive=prompt('guess the following: "spongebob is the greatest cartoon of all time"   (yes/y no/n)'). toLowerCase();}
 
 
 // question 6
