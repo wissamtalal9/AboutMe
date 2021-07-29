@@ -5,3 +5,5 @@
 - i will add a 6th question to the user trying to guess the number i choose and give him 4 chances with a little help.
 - i will add a 7th question to the user trying to guess the word i choose and give him 6 chances with a little help.
 - show the user his final score in guessing info about me.
+
+
